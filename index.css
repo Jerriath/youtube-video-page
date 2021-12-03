@@ -2,7 +2,8 @@
 ---------- Table of Contents ----------
     1. Basic/Global styles
     2. Navbar styles
-    
+    3. Video-content styles
+    4. Recommendation stlyes
 
 
 
@@ -21,6 +22,16 @@ body {
 
 .default-font {
     font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.page-content {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 
@@ -31,7 +42,6 @@ body {
     display: flex;
     flex-direction: row;
     height: 3.5em;
-    border: 1px solid black;
     justify-content: space-between;
 }
 
@@ -43,6 +53,7 @@ body {
 
 .logo {
     max-width: 10%;
+    margin-left: 1%;
 }
 
 .youtube-logo {
@@ -55,18 +66,89 @@ body {
     margin: 0 10%;
 }
 
+.search-bar {
+    height: 100%;
+    min-width: 45%;
+    margin-left: 5%;
+}
+
+.search-holder {
+    height: 70%;
+    min-width: 90%;
+    margin: auto 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+
+}
+
+.search-input {
+    height: 100%;
+    width: 90%;
+    padding: 0 1em;
+    border: 1px solid rgb(200, 200, 200);
+    border-right: none;
+}
+
+.search-input:focus {
+    border: 1px solid #065fd4;
+    outline: none;
+}
+
+.search-btn {
+    height: 100%;
+    width: 10%;
+    border: 1px solid rgb(200, 200, 200);
+    background: rgb(250, 250, 250);
+}
+
+.search-btn:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.search-mic {
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5em;
+}
+
 .icons {
     height: 100%;
+    width: 30%;
 }
 
 .nav-icon {
-    height: 50%;
-    width: 50%;
-    margin: auto;
+    height: 45%;
+    width: auto;
+    margin: auto .75em;
+    stroke-width: 2px !important;
 }
 
 .sign-in {
-    border: 1px solid blue;
+    border: 1px solid #065fd4;
+    color: #065fd4;
+    fill: #065fd4;
+    font-size: .8em;
+    border-radius: 2px;
+    padding-right: 0.5em;
     display: flex;
     flex-direction: row;
+    height: 70%;
+    margin: auto 1em;
+}
+
+
+
+/*----- Video content styles -----*/
+
+.video-content {
+
+}
+
+
+
+/*----- Recommendation styles -----*/
+
+.recommendations {
+
 }
