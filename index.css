@@ -1,0 +1,72 @@
+/*
+---------- Table of Contents ----------
+    1. Basic/Global styles
+    2. Navbar styles
+    
+
+
+
+
+
+
+*/
+
+
+
+/*----- Basic/global styles -----*/
+
+body {
+    margin: 0;
+}
+
+.default-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*----- Navbar styles -----*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 3.5em;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.navbar span {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.logo {
+    max-width: 10%;
+}
+
+.youtube-logo {
+    padding: auto;
+}
+
+.three-lines {
+    height: 100%;
+    width: 45%;
+    margin: 0 10%;
+}
+
+.icons {
+    height: 100%;
+}
+
+.nav-icon {
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.sign-in {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
