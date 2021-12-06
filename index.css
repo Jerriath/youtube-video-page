@@ -3,6 +3,8 @@
     1. Basic/Global styles
     2. Navbar styles
     3. Video-content styles
+        3.a) Video styling
+        3.b) Description styling
     4. Recommendation stlyes
 
 
@@ -18,6 +20,7 @@
 
 body {
     margin: 0;
+    font-family: arial;
 }
 
 .default-font {
@@ -32,7 +35,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1% 5% 
+    padding: 1% 5%;
 }
 
 
@@ -142,9 +145,9 @@ body {
 
 /*----- Video content styles -----*/
 
+/*Video styling*/
 .video-content {
     width: 74%;
-    border: 1px solid black;
 
 }
 
@@ -163,11 +166,71 @@ body {
     height: 100%;
 }
 
+/*Description styling */
+.description-block {
+    display: flex;
+    flex-direction: column;
+    height: 5em;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    border-bottom: 2px solid #dddddd;
+}
+
+.hashtags {
+    color: #065fd4;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.btns-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.view-count {
+    color: #606060;
+    font-size: 0.9rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    margin: 0.8em 0;
+}
+
+.btn-span {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.btn-font {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: auto;
+}
+
+.btn-icon {
+    margin: auto;
+    margin-right: 0.5rem;
+    max-height: 24px;
+    max-width: 24px;
+}
+
 
 
 /*----- Recommendation styles -----*/
 
 .recommendations {
     width: 24%;
-    border: 1px solid black;
 }
