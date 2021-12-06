@@ -23,6 +23,14 @@ body {
     font-family: arial;
 }
 
+button {
+    padding: 0;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
 .default-font {
     font-family: 'Roboto', sans-serif;
     margin: auto;
@@ -148,6 +156,8 @@ body {
 /*Video styling*/
 .video-content {
     width: 74%;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -166,8 +176,8 @@ body {
     height: 100%;
 }
 
-/*Description styling */
-.description-block {
+/*Video-Info styling */
+.video-info {
     display: flex;
     flex-direction: column;
     height: 5em;
@@ -204,13 +214,14 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0.8em 0;
+    width: 45%;
+    justify-content: space-between;
 }
 
 .btn-span {
     display: flex;
     flex-direction: row;
     text-align: center;
-    margin-right: 1rem;
     cursor: pointer;
 }
 
@@ -218,13 +229,66 @@ body {
     font-size: 0.9rem;
     font-weight: 600;
     margin: auto;
+    margin-left: 0.5rem;
 }
 
 .btn-icon {
     margin: auto;
-    margin-right: 0.5rem;
     max-height: 24px;
     max-width: 24px;
+}
+
+/*Video-Description Styling*/
+.video-description {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    border-bottom: 2px solid #dddddd;
+}
+
+.description-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.description-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    justify-content: center;
+}
+
+.subscribe-btns {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #c00;
+    color: white;
+    border-radius: 3px;
 }
 
 
