@@ -53,6 +53,10 @@ a {
     padding-bottom: 300px;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 
 
 /*----- Navbar styles -----*/
@@ -294,8 +298,8 @@ a {
 
 .subscribe {
     font-weight: 600;
-    font-size: 1rem;
-    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+    padding: 0.7rem 1.2rem;
     background: #c00;
     color: white;
     border-radius: 3px;
@@ -389,7 +393,7 @@ a {
 
 .comment-username {
     padding: 0.25rem;
-    font-weight: 500;
+    font-weight: 600;
     margin: 0.5rem 0;
 }
 
