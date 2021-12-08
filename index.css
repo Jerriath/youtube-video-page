@@ -7,6 +7,7 @@
         3.b) Description styling
         3.c) Comment section styling
     4. Recommendation stlyes
+        4.a) Filter Btn styles
 
 
 
@@ -423,4 +424,53 @@ a {
 
 .recommendations {
     width: 24%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Filter Btn styles*/
+.filter-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.filter-btn {
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.5rem;
+    margin-left: 0;
+}
+
+.filter-btn-selected {
+    background-color: black;
+    border: black;
+    color: white;
+}
+
+.recommended-video {
+    display: flex;
+    flex-direction: row;
+    margin: 0.3rem 0;
+    cursor: pointer;
+}
+
+.recommended-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.new-tag {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-right: auto;
+    padding: 0.1rem 0.25rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #606060;
+    font-weight: 600;
 }
